@@ -1,0 +1,27 @@
+# Ignora archivos del entorno virtual
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de sistema/editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Archivos temporales
+*.log
+*.bak
+*.tmp
+*.old
+
+# Archivos generados por Streamlit
+.streamlit/
+
+# Archivos de salida
+*.xlsx
+*.zip
